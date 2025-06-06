@@ -1,0 +1,472 @@
+{
+  "euStrategy": {
+    "title": "EU Molecular Hydrogen Strategy",
+    "subtitle": "Our commitment to Europe's clean energy future",
+    "description": "We are actively participating in the European Union's molecular hydrogen strategy, contributing to the goal of achieving climate neutrality by 2050.",
+    "goals": {
+      "title": "Strategic Goals",
+      "items": [
+        {
+          "title": "Clean Energy",
+          "description": "Promoting hydrogen as a key clean energy carrier"
+        },
+        {
+          "title": "Innovation",
+          "description": "Driving technological innovation in hydrogen production"
+        },
+        {
+          "title": "Integration",
+          "description": "Integrating hydrogen into existing energy systems"
+        }
+      ]
+    },
+    "commitment": {
+      "title": "Our Commitment",
+      "text": "We are dedicated to supporting the EU's hydrogen strategy through continuous innovation and sustainable practices."
+    },
+    "cleanEnergy": {
+      "title": "Clean Energy",
+      "description": "Transition to sustainable energy sources"
+    },
+    "independence": {
+      "title": "Independence",
+      "description": "Energy autonomy from traditional sources"
+    },
+    "greeceRole": {
+      "title": "Greece's Role",
+      "description": "Strategic position and development initiatives make Greece a key player in EU's molecular hydrogen future"
+    },
+    "imageAlt": "European Energy Infrastructure",
+    "future": {
+      "title": "Powering Europe's Future"
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Discover our range of high-quality molecular hydrogen products",
+    "buyButton": "Buy Now",
+    "items": [
+      {
+        "name": "Molecular Hydrogen Fuel Cell",
+        "description": "Advanced fuel cell technology for clean energy generation",
+        "price": "2,999",
+        "image": "/images/products/fuel-cell.jpg",
+        "features": [
+          "High efficiency",
+          "Zero emissions",
+          "Long lifespan",
+          "Easy maintenance"
+        ],
+        "tag": "New"
+      },
+      {
+        "name": "Molecular Hydrogen Storage Tank",
+        "description": "Safe and efficient molecular hydrogen storage solution",
+        "price": "1,499",
+        "image": "/images/products/storage-tank.jpg",
+        "features": [
+          "Large capacity",
+          "Safety certified",
+          "Pressure regulated",
+          "Temperature controlled"
+        ],
+        "tag": "Popular"
+      },
+      {
+        "name": "Molecular Hydrogen Generator",
+        "description": "Compact molecular hydrogen generation system",
+        "price": "3,999",
+        "image": "/images/products/generator.jpg",
+        "features": [
+          "High output",
+          "Energy efficient",
+          "Smart monitoring",
+          "Remote control"
+        ],
+        "tag": "Premium"
+      }
+    ]
+  },
+  "scientific": {
+    "title": "Scientific Research",
+    "subtitle": "Advancing molecular hydrogen technology through research",
+    "description": "Our commitment to scientific excellence drives innovation in molecular hydrogen production and applications.",
+    "research": {
+      "title": "Research Areas",
+      "items": [
+        {
+          "title": "Production Methods",
+          "description": "Developing efficient and sustainable molecular hydrogen production technologies"
+        },
+        {
+          "title": "Storage Solutions",
+          "description": "Innovative approaches to molecular hydrogen storage and distribution"
+        },
+        {
+          "title": "Applications",
+          "description": "Exploring new applications for molecular hydrogen in various sectors"
+        }
+      ]
+    },
+    "partnerships": {
+      "title": "Research Partnerships",
+      "text": "We collaborate with leading research institutions and universities worldwide to advance molecular hydrogen technology."
+    }
+  },
+  "certifications": {
+    "subtitle": "Quality Assurance",
+    "title": "Why Choose Our Device?",
+    "description": "Our hydrogen water devices are backed by rigorous testing, international certifications, and proven scientific research. Choose a solution you can trust.",
+    "items": [
+      {
+        "title": "Safety Certified",
+        "description": "Meets international safety standards and regulations for water treatment devices"
+      },
+      {
+        "title": "Quality Tested",
+        "description": "Regular quality control and performance testing by independent laboratories"
+      },
+      {
+        "title": "Award Winning",
+        "description": "Recognized for innovation in hydrogen-enriched water technology"
+      },
+      {
+        "title": "Research Backed",
+        "description": "Supported by scientific studies and clinical research papers"
+      }
+    ]
+  },
+  "hydrogenBenefits": {
+    "title": "Molecular Hydrogen Water",
+    "subtitle": "Health Benefits",
+    "description": "Molecular hydrogen water is regular water that's been enhanced with molecular hydrogen gas, known as H2. Molecular hydrogen is a tasteless, colorless, odorless gas that can combine with other elements, such as oxygen.",
+    "athleticPerformance": {
+      "title": "Improve Athletic Performance",
+      "description": "Enhanced endurance and faster recovery for athletes."
+    },
+    "metabolicHealth": {
+      "title": "Improve Metabolic Health",
+      "description": "Support healthy metabolism and energy production."
+    },
+    "discoverButton": "Discover More",
+    "callButton": "Call Anytime"
+  },
+  "transportation": {
+    "mainTitle": "Energizing Well-being: The Role of Molecular Hydrogen in Physical and Mental Wellness",
+    "mainDescription": "A new approach to molecular hydrogen use brings to light its multiple benefits—not only for the environment but also for human physical and mental health.",
+    "features": [
+      {
+        "title": "Clean Energy",
+        "description": "Hydrogen intake has been linked to increased physical energy and reduced fatigue, providing stimulation without the need for artificial stimulants."
+      },
+      {
+        "title": "Mental Balance",
+        "description": "The antioxidant properties of hydrogen are associated with reduced anxiety and improved mood, supporting emotional well-being and increasing telomerase activity."
+      },
+      {
+        "title": "Physical Wellness",
+        "description": "Hydrogen consumption can aid in cellular repair and reduce inflammation, enhancing overall physical fitness and endurance."
+      },
+      {
+        "title": "Daily Vitality",
+        "description": "Regular hydrogen intake is connected to improved mental clarity, better concentration, and increased vitality in everyday life."
+      },
+      {
+        "title": "Improved Quality of Life",
+        "description": "Overall enhancement of quality of life through daily use of hydrogen products."
+      },
+      {
+        "title": "Future Outlook",
+        "points": [
+          "Breathing Cleaner Air: Enhanced oxygenation for brain and body function",
+          "Holistic Health: A balance between environmental and personal wellness",
+          "Preventive Care: Reducing chronic diseases through clean technologies"
+        ]
+      }
+    ],
+    "conclusion": "Hydrogen is not just fuel for transportation — it's fuel for a healthier, more balanced life."
+  },
+  "about": {
+    "title": "Quantum Wellness",
+    "subtitle": "The New Dimension in Wellness",
+    "tagline": "Wellness & Health",
+    "description": {
+      "first": "Quantum Wellness offers innovative solutions for health and well-being, focusing on the power of nature and technology. With specialized services such as molecular hydrogen, clean breathing, and energy therapies, it promotes holistic health, prevention of chronic diseases, and overall rejuvenation of the body.",
+      "second": "Quantum Wellness aims to create a new lifestyle where the body and mind function in perfect harmony with the environment."
+    },
+    "buttonText": "Visit Quantum Wellness",
+    "features": {
+      "biological": {
+        "title": "Biological",
+        "description": "100% natural and organic products for your well-being"
+      },
+      "biodynamic": {
+        "title": "Biodynamic",
+        "description": "Harvested following natural cycles for maximum potency"
+      },
+      "sustainable": {
+        "title": "Sustainable",
+        "description": "Environmentally conscious production methods"
+      }
+    },
+    "readMore": "Read More"
+  },
+  "nav": {
+    "home": "Home",
+    "hydrogenLife": "Hydrogen & Life",
+    "hydrogenWater": "Hydrogenated Water",
+    "humans": "Humans",
+    "animals": "Animals",
+    "plants": "Plants",
+    "industry": "Industry",
+    "products": "Products",
+    "shop": "Shop",
+    "contact": "Contact"
+  },
+  "hydrogenWaterPage": {
+    "title": "Molecular Hydrogen Water",
+    "subtitle": "Discover the Power of Molecular Hydrogen",
+    "researchMessage": {
+      "title": "Scientific Research & Development",
+      "description": "Our ongoing research in molecular hydrogen technology continues to reveal promising results. Scientific studies indicate significant potential benefits for overall wellness and specific health conditions. We remain committed to advancing our understanding through rigorous clinical trials and evidence-based research.",
+      "highlights": [
+        "Evidence-based research",
+        "Clinical trials",
+        "Continuous innovation",
+        "Quality assurance"
+      ]
+    },
+    "nutritionSection": {
+      "title": "Molecular Hydrogen Water Nutrition Information",
+      "content": {
+        "minerals": "The mineral and vitamin content of molecular hydrogen water will vary, depending on the provider and where the water is sourced from. Some manufacturers infuse water with trace amounts of following vitamins and minerals:",
+        "sameAsWater": "Molecular hydrogen water has the same nutrition information as water.",
+        "liverStudy": "In studies of people with hepatitis B and nonalcoholic fatty liver disease, treatment with molecular hydrogen water improved liver function and reduced the amount of fat stored in the liver."
+      }
+    },
+    "benefits": {
+      "discover": "DISCOVER",
+      "title": "Benefits of Molecular Hydrogen Water",
+      "description": "Experience the transformative power of molecular hydrogen in water, scientifically proven to enhance your health and well-being.",
+      "items": [
+        {
+          "title": "Enhanced Energy",
+          "description": "Boost your energy levels naturally"
+        },
+        {
+          "title": "Antioxidant Action",
+          "description": "Fight free radicals and reduce oxidative stress with O1"
+        },
+        {
+          "title": "Recovery Support",
+          "description": "Speed up recovery time after exercise"
+        },
+        {
+          "title": "Mental Clarity",
+          "description": "Improve concentration and cognitive function"
+        }
+      ],
+      "conclusion": "Transform your health with the power of molecular hydrogen-enriched water",
+      "imageAlt": "Molecular Hydrogen Water Benefits Illustration"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Connect with our team of hydrogen experts and discover how we can help you"
+    },
+    "info": {
+      "title": "Get in Touch",
+      "description": "We'd love to hear from you. Use the contact information below or fill out the form to reach us.",
+      "workingHours": {
+        "title": "Working Hours",
+        "monday": "Monday: 8:00 to 16:00",
+        "tueFri": "Tuesday to Friday: 8:00 to 16:00"
+      },
+      "phone": {
+        "title": "Phone",
+        "cta": "Click to call"
+      },
+      "email": {
+        "title": "Email",
+        "cta": "Click to send"
+      },
+      "address": {
+        "title": "Address"
+      },
+      "social": {
+        "title": "Follow Us"
+      }
+    },
+    "form": {
+      "title": "Send us a Message",
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "subject": "Subject",
+      "subjectPlaceholder": "What is your message about?",
+      "message": "Your Message",
+      "messagePlaceholder": "Type your message here...",
+      "send": "Send Message"
+    },
+    "map": {
+      "title": "Find Us",
+      "iframeTitle": "Our Location"
+    }
+  },
+  "industry": {
+    "title": "Industry & Hydrogen",
+    "subtitle": "Discover how hydrogenated water is transforming industrial production",
+    "applications": {
+      "title": "Industrial Applications",
+      "description": "Hydrogenated water has multiple applications in industry, offering innovative solutions for various production processes.",
+      "list": [
+        "Optimization of cooling processes",
+        "Industrial equipment cleaning",
+        "Metal processing",
+        "Food and beverage production",
+        "Pharmaceutical manufacturing"
+      ],
+      "imageAlt": "Industrial facilities with modern equipment"
+    },
+    "efficiency": {
+      "title": "Energy Efficiency",
+      "description": "The use of hydrogenated water in industry significantly contributes to improving energy efficiency and reducing operational costs.",
+      "benefits": [
+        {
+          "title": "Reduced Consumption",
+          "description": "Process optimization with lower energy consumption"
+        },
+        {
+          "title": "Faster Production",
+          "description": "Acceleration of production processes"
+        },
+        {
+          "title": "Less Waste",
+          "description": "Reduction of industrial waste and better resource management"
+        },
+        {
+          "title": "Improved Quality",
+          "description": "Higher quality of final products"
+        }
+      ],
+      "imageAlt": "Modern industrial production facility"
+    },
+    "environmental": {
+      "title": "Environmental Impact",
+      "description": "The adoption of hydrogenated water technologies contributes to reducing industry's environmental footprint.",
+      "impacts": [
+        {
+          "title": "CO2 Emissions Reduction",
+          "description": "Significant reduction in carbon dioxide emissions in industrial processes"
+        },
+        {
+          "title": "Water Conservation",
+          "description": "More efficient use of water resources in production"
+        },
+        {
+          "title": "Cleaner Production",
+          "description": "Minimization of chemical and harmful substance usage"
+        },
+        {
+          "title": "Circular Economy",
+          "description": "Supporting the transition to a more sustainable production model"
+        }
+      ],
+      "imageAlt": "Green industrial facility with solar panels"
+    },
+    "specialMachineryTag": "SPECIAL MACHINERY",
+    "specialMachinery": {
+      "title": "Special Machinery",
+      "list": [
+        "Engine room cleaning robots for ships",
+        "Hull cleaning robots for ships",
+        "Tank cleaning robots (including oil tankers and general tanks such as tank trucks)",
+        "Train carriage cleaning robots (interior-exterior)"
+      ]
+    }
+  },
+  "aiChatbot": {
+    "title": "AI Chatbot for Hydrogen Water",
+    "subtitle": "Learn more about the benefits of hydrogen water",
+    "description": "Our AI experts are here to answer all your questions about hydrogen water and its health benefits.",
+    "chatNow": "Start Chat",
+    "features": [
+      "24/7 availability",
+      "Instant responses",
+      "Scientifically backed information",
+      "Personalized support"
+    ]
+  },
+  "horeca": {
+    "title": "HO.RE.CA.",
+    "description": "Molecular Hydrogen solutions for Hotels, Restaurants & Cafés. Special applications and products for the hospitality and food service sector."
+  },
+  "humansPage": {
+    "heroTitle": "Hydrogen & Human Health",
+    "heroSubtitle": "Discover the benefits of molecular hydrogen for human health",
+    "introTitle": "The Power of Hydrogen",
+    "introDescription": "Molecular hydrogen offers multiple benefits for human health, from enhancing athletic performance to anti-aging.",
+    "didYouKnow": "Did you know?",
+    "didYouKnowText": "Hydrogen is the smallest and lightest molecule, allowing it to easily penetrate all cells in the body.",
+    "detailedSections": [
+      {
+        "title": "Brain Health & Psychology",
+        "content": [
+          "Improved cognitive functions and memory.",
+          "Reduced anxiety and depression.",
+          "Protection from neurodegenerative diseases."
+        ]
+      },
+      {
+        "title": "Cardiovascular Health",
+        "content": [
+          "Reduced risk of cardiovascular diseases.",
+          "Improved blood circulation.",
+          "Regulation of blood pressure."
+        ]
+      },
+      {
+        "title": "Metabolism & Energy",
+        "content": [
+          "Boosting metabolism and energy production.",
+          "Aid in weight management.",
+          "Stabilization of blood sugar levels."
+        ]
+      },
+      {
+        "title": "Cell Health & Aging",
+        "content": [
+          "Protection of cells from oxidative stress.",
+          "Slowing down aging processes.",
+          "Support of cell regeneration."
+        ]
+      },
+      {
+        "title": "Immunity & Development",
+        "content": [
+          "Strengthening the immune system.",
+          "Support for growth and recovery.",
+          "Reduction of inflammations."
+        ]
+      },
+      {
+        "title": "Sports",
+        "content": [
+          "Improved athletic performance and endurance.",
+          "Faster recovery after exercise.",
+          "Reduced inflammation and oxidative stress."
+        ]
+      },
+      {
+        "title": "Antiaging",
+        "content": [
+          "Reduction of aging signs at the cellular level.",
+          "Protection from oxidative stress.",
+          "Support for skin and cell health."
+        ]
+      }
+    ]
+  }
+} 

@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes float-delayed {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float-delayed 8s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+/* Απόκρυψη του "- Λεπτομέρειες" στους τίτλους */
+h3.text-xl.font-semibold.text-gray-900 {
+  white-space: nowrap;
+}
+
+h3.text-xl.font-semibold.text-gray-900::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  overflow: hidden;
+}
+
+/* Αποκοπή του "- Λεπτομέρειες" από όλους τους τίτλους */
+.text-xl.font-semibold:not(:empty) span:last-child {
+  display: none;
+}
+
+/* Προσαρμοσμένο στοιχείο που θα αντικαταστήσει το "- Λεπτομέρειες" με κενό */
+[data-hide-details] {
+  position: relative;
+}
+
+[data-hide-details]::after {
+  content: attr(data-hide-details);
+  visibility: hidden;
+}
