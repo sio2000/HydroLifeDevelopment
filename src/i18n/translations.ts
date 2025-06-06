@@ -1390,9 +1390,188 @@ export const resources = {
           ]
         },
       },
+      aiChatbot: {
+        title: 'AI Chatbot for Hydrogen Water',
+        subtitle: 'Learn more about the benefits of hydrogen water',
+        description: 'Our artificial intelligence experts are here to answer all your questions about hydrogen water and its health benefits.',
+        chatNow: 'Start Chat',
+        features: [
+          '24/7 availability',
+          'Instant responses',
+          'Scientifically documented information',
+          'Personalized support'
+        ]
+      },
       horeca: {
         title: 'HO.RE.CA.',
-        description: 'Molecular Hydrogen solutions for Hotels, Restaurants & Cafés. Special applications and products for the hospitality and food service sector.'
+        description: 'Molecular Hydrogen solutions for Hotels, Restaurants & Cafés. Special applications and products for the hospitality and food service sector.',
+        systemPresentation: {
+          title: 'WATER TREATMENT AND ENRICHMENT SYSTEM PRESENTATION',
+          phRegulator: {
+            title: '1. THE PH REGULATOR',
+            description: 'is for adjusting the pH before the cleaning or treatment process. The pH regulation must be changed or stabilized at an intermediate level before reaching its final state for another process or use.',
+            examples: [
+              'Metal removal (e.g. mercury, iron).',
+              'Pollutant management before drainage.',
+              'Disinfection and water quality maintenance.'
+            ],
+            hotelUse: 'For a hotel, water must be ideal for various uses: from washing dishes and guest bathing to cleaning procedures for facilities and rooms. The requirements for ideal water pH vary depending on its use, but generally there are some guidelines to ensure water quality and pleasant guest experience.',
+            idealPh: {
+              title: 'Ideal pH for Hotel Use',
+              dishwashing: {
+                title: '1. For Dishwashing and Cookware',
+                range: 'Ideal pH: 7.5 - 8.5',
+                benefits: [
+                  'Alkaline water is more effective at removing greasy substances and food residues from dishes, glasses and utensils.',
+                  'This pH ensures that dishwashing detergents and soaps work effectively without leaving residues or causing corrosion.'
+                ]
+              },
+              bathing: {
+                title: '2. For Guest Bathing and Hygiene (Pools, Showers, etc.)',
+                range: 'Ideal pH: 5.5 - 7.5',
+                benefits: [
+                  'Water for bathing and pools must be mildly alkaline or neutral to protect guest skin, not cause irritation or dryness, and maintain the natural balance of the epidermis.',
+                  'For pools, pH must remain within the 7.2 - 7.6 range for proper chlorine function and user safety.'
+                ]
+              },
+              cleaning: {
+                title: '3. For Cleaning and Laundry',
+                range: 'Ideal pH: 7 - 9',
+                benefits: [
+                  'Water used in laundry must be slightly alkaline to ensure proper detergent action and remove residues from clothes, sheets, and towels.',
+                  'Very acidic or very alkaline water can reduce detergent effectiveness and damage fabrics.'
+                ]
+              },
+              drinking: {
+                title: '4. Ideal pH for drinking water:',
+                range: 'Ideal pH range: 7.0 - 9.5',
+                description: 'This range ensures water is safe for health and does not cause harm to the body or unpleasant tastes. Water within this range is considered neutral or alkaline, and is the most pleasant and safe for consumption and therefore will not cause health damage to hotel guests.'
+              }
+            },
+            systemNote: 'Since a system with different pH for each department is particularly expensive and complex, it would be preferable to have only two pH options, which are the average for all departments.'
+          },
+          hardnessRegulator: {
+            title: '2. THE WATER HARDNESS REGULATOR',
+            description: 'is the device used to reduce or control water hardness - that is, the concentration of calcium (Ca²⁺) and magnesium (Mg²⁺), which are the main ions that determine how "hard" water is.',
+            purpose: 'A water softening system for a hotel is essential for equipment protection, improving guest experience, and reducing maintenance costs. Its purpose is to remove calcium and magnesium ions from water, so that salts do not form in pipes, water heaters, washing machines, and showers.',
+            benefits: {
+              title: 'Benefits in hotel facilities:',
+              saltReduction: 'Reduction of salt deposits in:',
+              equipment: [
+                'Water heaters / Boilers',
+                'Showers, faucets, sanitary items',
+                'Clothes and dish washing machines',
+                'Coffee/kitchen systems'
+              ],
+              other: [
+                'Fewer chemical cleaners & soaps (better foam)',
+                'Better guest experience (softer water for bathing)',
+                'Longer equipment lifespan',
+                'Reduced maintenance costs'
+              ]
+            }
+          },
+          filters: {
+            title: 'Graphite and Sand Filters',
+            description: 'The filters we use in our system are graphite and sand filters.',
+            graphiteFilters: {
+              title: 'Graphite Filters',
+              description: 'are mainly used for removing organic impurities and other substances that may affect the taste or smell of water. Graphite is a type of carbon that has excellent absorbent properties.',
+              benefits: {
+                title: 'Benefits:',
+                items: [
+                  'Organic pollutant removal: Ideal for removing chlorine, chlorine derivatives and other chemical or organic pollutants.',
+                  'Taste and odor improvement: Improves the taste and smell of water.',
+                  'Antibacterial properties: Graphite can reduce the growth of bacteria and fungi.',
+                  'Long-term use: Graphite filters have a longer lifespan and do not require frequent replacements.'
+                ]
+              },
+              hotelUse: {
+                title: 'Hotel Use:',
+                items: [
+                  'Removes chemicals and organic compounds, improving the quality of water used by guests.',
+                  'Ideal for drinking water, bathing or laundry.'
+                ]
+              }
+            },
+            sandFilters: {
+              title: 'Sand Filters',
+              description: 'are very popular and economical in pre-treated water processing. They are mainly used for removing large particles, such as mud, sand and other impurities that may exist in water. Sand is a natural absorber that traps impurities in its layers.',
+              benefits: {
+                title: 'Benefits:',
+                items: [
+                  'Large particle removal: Ideal for removing sand, mud, leaves and other large impurities.',
+                  'Low operating cost: Very efficient and economical for large filtration systems.',
+                  'Longer lifespan: Does not require frequent changes like other filters (usually only washing).'
+                ]
+              },
+              hotelUse: {
+                title: 'Hotel Use:',
+                items: [
+                  'Ideal for filtering non-potable water (e.g. for water used in pools or garden irrigation).',
+                  'Applied in predetermined stages to remove large particles before other processes.'
+                ]
+              }
+            },
+            combination: {
+              title: 'Combination of Graphite and Sand Filters',
+              description: 'In hotels and industrial facilities, both filters are often combined for optimal water quality. The combination of these filters provides multiple protection:',
+              process: [
+                'Sand Filters for removing larger particles and organic pollutants.',
+                'Graphite Filters for removing chlorine, organic substances and improving water taste.'
+              ],
+              benefits: {
+                title: 'Benefits from the Combined System:',
+                items: [
+                  'Efficient pollutant removal.',
+                  'Better water quality for drinking and use.',
+                  'Reduced maintenance costs and wear on devices and pipes.'
+                ]
+              }
+            },
+            selfCleaning: 'Our filters have a self-cleaning system and do not require service.'
+          },
+          electromagneticSystem: {
+            title: '3. ELECTROMAGNETIC SYSTEM FOR "LIVING WATER"',
+            description: 'Our electromagnets activate the free electrons of water and in this way transfer water information from previous states like spring water. It has now been proven by Japanese professor EMOTO that water has memories and these are transferred to every living organism.',
+            problem: 'The state of water, its bottling, cleaning and transport conditions to homes, deactivate electrons and weaken its beneficial effects.',
+            solution: 'Our machine restores its electroexcitation, redefines its ability to give life to every living organism on the planet, giving health and contact with the aquatic wealth to those who taste it!',
+            note: 'Its charging is instantaneous, passing to the next stage which is enrichment with molecular hydrogen.'
+          },
+          hydrogenEnrichment: {
+            title: '4. MOLECULAR HYDROGEN ENRICHMENT',
+            introduction: 'Hydrogen is the smallest chemical element in nature. It is one of the building blocks of the universe as well as our planet and can penetrate everywhere. Molecular hydrogen contains two hydrogen atoms that share an electron.',
+            benefits: 'Hydrogen water is the natural solution for health, wellness and development in humans and all living organisms. It strengthens the body, fights oxidative stress and offers energy and rejuvenation. Molecular hydrogen is a natural elixir of life, in addition to beneficial effects on all organs and systems of man it increases telomeres and extends life expectancy.',
+            applications: 'Water enrichment with molecular hydrogen can provide great benefits beyond drinking, in the kitchen, bathroom and laundry department.',
+            airSystem: 'Molecular hydrogen can, with one more system, pass into the air ducts and offer incredible benefits in inhaled form, for selected rooms or for all areas of the building. There are also advanced individual machines for hydrogen inhalation, with special minerals, ion crystal plasma and Solfeggio music integrated for Wellness and advanced therapy in rooms such as suites.',
+            keyAdvantage: 'The water hydrogenation system is the greatest asset of the overall system we present to you. It is a health and wellness innovation, certified with numerous researches around the world, with incredibly many indications for use and clinically proven benefits.',
+            clinicalBenefits: 'The use of hydrogen water and simultaneous inhalation for one hour, softens cell membranes, increases ATP and provides immediate antioxidant effect, fighting free oxygen and Hydroxyl (HO) radicals and enhancing hydrogen peroxide thus increasing the antioxidation of the body.',
+            businessBenefits: {
+              title: 'The benefits of molecular hydrogen for customers and staff are related to:',
+              items: [
+                'The health of customers and staff and what this entails in relation to economic losses due to illness.',
+                'Providing Wellness and increased demands for this specific service.',
+                'The competitive advantage offered by this specific innovative service.',
+                'Increased profitability through increased room rates and provision of upgraded beverages and special alkaline and hydrogen water (5 euros) 500ml.',
+                'Upgrading the Spa service with hydrogen devices etc.'
+              ]
+            }
+          },
+          desalinationSystem: {
+            title: 'Additional desalination mechanism',
+            description: 'Our company can adapt to the illustrated system and desalination mechanism, mainly for hotels and businesses located on islands or areas of the mainland country, which are close to the sea and pump their own water!',
+            note: 'It should be noted that our systems have constant pressure pumps to maintain stable water pressure on all floors of a building.'
+          },
+          companyInfo: {
+            title: 'HYDROGEN DEVELOPMENTS',
+            subtitle: 'SPECIALIZED MOLECULAR HYDROGEN PRODUCTION MACHINES',
+            contact: {
+              phone: 'Tel. 00306980900300',
+              email: 'Mail: infohydrogenlife@gmail.com',
+              website: 'WS www.hydrogenlife.eu'
+            }
+          }
+        }
       }
     }
   },
@@ -1773,10 +1952,6 @@ export const resources = {
             }
           }
         }
-      },
-      horeca: {
-        title: 'HO.RE.CA.',
-        description: 'Λύσεις Μοριακού Υδρογόνου για Ξενοδοχεία, Εστιατόρια & Καφέ. Εξειδικευμένες εφαρμογές και προϊόντα για τον κλάδο φιλοξενίας και εστίασης.'
       },
       organicFarming: {
         subtitle: "ΟΡΓΑΝΙΚΑ ΦΥΣΙΚΑ ΚΡΑΣΙΑ",
@@ -2668,6 +2843,18 @@ export const resources = {
         filterOrganic: "Βιολογικά",
         filterWine: "Κρασί"
       },
+      aiChatbot: {
+        title: 'AI Chatbot για Υδρογονωμένο Νερό',
+        subtitle: 'Μάθετε περισσότερα για τα οφέλη του υδρογονωμένου νερού',
+        description: 'Οι ειδικοί μας σε τεχνητή νοημοσύνη είναι εδώ για να απαντήσουν σε όλες τις ερωτήσεις σας σχετικά με το υδρογονωμένο νερό και τα οφέλη του για την υγεία σας.',
+        chatNow: 'Ξεκινήστε Συνομιλία',
+        features: [
+          '24/7 διαθεσιμότητα',
+          'Άμεσες απαντήσεις',
+          'Επιστημονικά τεκμηριωμένες πληροφορίες',
+          'Προσωποποιημένη υποστήριξη'
+        ]
+      },
       industry: {
         title: 'Βιομηχανία & Yδρογονωμένο Nερό',
         subtitle: 'Ανακαλύψτε πώς το υδρογονωμένο νερό μεταμορφώνει τη βιομηχανική παραγωγή',
@@ -2764,7 +2951,6 @@ export const resources = {
           ],
           imageAlt: 'Πράσινη βιομηχανική εγκατάσταση με ηλιακούς συλλέκτες'
         },
-        
         specialMachineryTag: 'ΕΙΔΙΚΑ ΜΗΧΑΝΗΜΑΤΑ',
         specialMachinery: {
           title: 'Ειδικά Μηχανήματα',
@@ -2774,8 +2960,178 @@ export const resources = {
             'Ρομπότ καθαρισμού δεξαμενοπλοίων και γενικά δεξαμενών όπως βυτίων',
             'Ρομπότ καθαρισμός συρμού τρένων (εσωτερικά-εξωτερικά)'
           ]
-        },
-
+        }
+      },
+      horeca: {
+        title: 'HO.RE.CA.',
+        description: 'Λύσεις Μοριακού Υδρογόνου για Ξενοδοχεία, Εστιατόρια & Καφέ. Εξειδικευμένες εφαρμογές και προϊόντα για τον κλάδο φιλοξενίας και εστίασης.',
+        systemPresentation: {
+          title: 'ΠΑΡΟΥΣΙΑΣΗ ΣΥΣΤΗΜΑΤΟΣ ΕΠΕΞΕΡΓΑΣΙΑΣ ΚΑΙ ΕΜΠΛΟΥΤΙΣΜΟΥ ΝΕΡΟΥ',
+          phRegulator: {
+            title: '1. O ΡΥΘΜΙΣΤΗΣ PH',
+            description: 'είναι για την προσαρμογή του pH πριν από τη διαδικασία καθαρισμού ή επεξεργασίας. Η ρύθμιση του pH πρέπει να μεταβάλλεται ή να σταθεροποιείται σε ενδιάμεσο επίπεδο πριν να φτάσει στην τελική του κατάσταση για άλλη διαδικασία ή χρήση.',
+            examples: [
+              'Απομάκρυνση μετάλλων (π.χ. υδράργυρος, σίδηρος).',
+              'Διαχείριση των ρύπων πριν από την αποχέτευση.',
+              'Απολύμανση και διατήρηση της ποιότητας του νερού.'
+            ],
+            hotelUse: 'Για ένα ξενοδοχείο, το νερό πρέπει να είναι ιδανικό για διάφορες χρήσεις: από το πλύσιμο πιάτων και τα μπάνια των πελατών μέχρι τις καθαριστικές διαδικασίες για τις εγκαταστάσεις και τα δωμάτια. Οι απαιτήσεις για το ιδανικό pH του νερού ποικίλλουν ανάλογα με τη χρήση του, αλλά γενικά υπάρχουν κάποιες κατευθυντήριες γραμμές για να εξασφαλίσουμε την ποιότητα του νερού και την ευχάριστη εμπειρία των πελατών.',
+            idealPh: {
+              title: 'Ιδανικό pH για Ξενοδοχειακή Χρήση',
+              dishwashing: {
+                title: '1. Για Πλύσιμο Πιάτων και Μαγειρικών Σκευών',
+                range: 'Ιδανικό pH: 7.5 - 8.5',
+                benefits: [
+                  'Το αλκαλικό νερό είναι πιο αποτελεσματικό στην απομάκρυνση των λιπαρών ουσιών και των υπολειμμάτων τροφών από τα πιάτα, τα ποτήρια και τα σκεύη.',
+                  'Το pH αυτό εξασφαλίζει ότι τα απορρυπαντικά και τα σαπούνια πιάτων λειτουργούν αποτελεσματικά χωρίς να αφήνουν υπολείμματα ή να προκαλούν διάβρωση.'
+                ]
+              },
+              bathing: {
+                title: '2. Για Μπάνια και Υγιεινή Πελατών (Πισίνες, Ντους κ.λπ.)',
+                range: 'Ιδανικό pH: 5.5 - 7.5',
+                benefits: [
+                  'Το νερό για το μπάνιο και τις πισίνες πρέπει να είναι ήπια αλκαλικό ή ουδέτερο για να προστατεύει το δέρμα των πελατών, να μην προκαλεί ερεθισμούς ή ξηρότητα και να διατηρεί τη φυσική ισορροπία της επιδερμίδας.',
+                  'Για την πισίνα, το pH πρέπει να παραμένει εντός του εύρους 7.2 - 7.6 για τη σωστή λειτουργία του χλωρίου και για την ασφάλεια των χρηστών.'
+                ]
+              },
+              cleaning: {
+                title: '3. Για Καθαριστικά και Πλυντήρια Ρούχων',
+                range: 'Ιδανικό pH: 7 - 9',
+                benefits: [
+                  'Το νερό που χρησιμοποιείται στα πλυντήρια ρούχων πρέπει να είναι ελαφρώς αλκαλικό για να εξασφαλίσει τη σωστή δράση των απορρυπαντικών και να απομακρύνει τα υπολείμματα από τα ρούχα, τα σεντόνια και τις πετσέτες.',
+                  'Πολύ όξινο ή πολύ αλκαλικό νερό μπορεί να μειώσει την αποτελεσματικότητα των απορρυπαντικών και να προκαλέσει ζημιά στα υφάσματα.'
+                ]
+              },
+              drinking: {
+                title: '4. Ιδανικό pH για πόσιμο νερό:',
+                range: 'Ιδανικό εύρος pH: 7.0 - 9.5',
+                description: 'Αυτό το εύρος εξασφαλίζει ότι το νερό είναι ασφαλές για την υγεία και δεν προκαλεί βλάβες στον οργανισμό ή δυσάρεστες γεύσεις. Το νερό εντός αυτού του εύρους θεωρείται ουδέτερο ή αλκαλικό, και είναι το πιο ευχάριστο και ασφαλές για κατανάλωση και επομένως δε θα υπάρξουν βλάβες στην υγεία των πελατών του ξενοδοχείου.'
+              }
+            },
+            systemNote: 'Επειδή ένα σύστημα με διαφορετικό PH σε κάθε τμήμα είναι ιδιαίτερα ακριβό και πολύπλοκο, θα ήταν προτιμότερο να υπάρχουν μόνο δύο επιλογές ph, που είναι στο μέσο όρο για όλα τα τμήματα.'
+          },
+          hardnessRegulator: {
+            title: '2. Ο ΡΥΘΜΙΣΤΗΣ ΣΚΛΗΡΟΤΗΤΑΣ ΝΕΡΟΥ',
+            description: 'είναι η συσκευή που χρησιμοποιείται για να μειώσει ή να ελέγξει τη σκληρότητα του νερού - δηλαδή τη συγκέντρωση ασβεστίου (Ca²⁺) και μαγνησίου (Mg²⁺), που είναι τα κύρια ιόντα που καθορίζουν πόσο «σκληρό» είναι το νερό.',
+            purpose: 'Ένα σύστημα αποσκλήρυνσης νερού για ξενοδοχείο είναι απαραίτητο για την προστασία εξοπλισμού, τη βελτίωση της εμπειρίας των πελατών και τη μείωση του κόστους συντήρησης. Σκοπός του είναι να αφαιρεί τα ιόντα ασβεστίου και μαγνησίου από το νερό, ώστε να μην δημιουργούνται άλατα στις σωληνώσεις, στους θερμοσίφωνες, στα πλυντήρια και στις ντουζιέρες.',
+            benefits: {
+              title: 'Πλεονεκτήματα σε ξενοδοχειακές εγκαταστάσεις:',
+              saltReduction: 'Μείωση αποθέσεων αλάτων σε:',
+              equipment: [
+                'Θερμοσίφωνες / Μπόιλερ',
+                'Ντους, βρύσες, είδη υγιεινής',
+                'Πλυντήρια ρούχων και πιάτων',
+                'Συστήματα καφέ/κουζίνας'
+              ],
+              other: [
+                'Λιγότερα χημικά καθαριστικά & σαπούνια (καλύτερο αφρό)',
+                'Καλύτερη εμπειρία πελατών (μαλακότερο νερό για μπάνιο)',
+                'Μεγαλύτερη διάρκεια ζωής εξοπλισμού',
+                'Μείωση κόστους συντήρησης'
+              ]
+            }
+          },
+          filters: {
+            title: 'Φίλτρα Γραφίτη και Άμμου',
+            description: 'Τα φίλτρα που χρησιμοποιούμε στο δικό μας σύστημα είναι γραφίτη και άμμου.',
+            graphiteFilters: {
+              title: 'Φίλτρα Γραφίτη',
+              description: 'χρησιμοποιούνται κυρίως για την απομάκρυνση οργανικών ακαθαρσιών και άλλων ουσιών που ενδέχεται να επηρεάσουν τη γεύση ή τη μυρωδιά του νερού. Ο γραφίτης είναι ένας τύπος άνθρακα, που έχει εξαιρετικές απορροφητικές ιδιότητες.',
+              benefits: {
+                title: 'Πλεονεκτήματα:',
+                items: [
+                  'Απομάκρυνση οργανικών ρύπων: Ιδανικά για την αφαίρεση χλωρίου, χλωροπαραγωγών και άλλων χημικών ή οργανικών ρύπων.',
+                  'Αναβάθμιση γεύσης και οσμής: Βελτιώνει τη γεύση και την οσμή του νερού.',
+                  'Αντιβακτηριδιακές ιδιότητες: Ο γραφίτης μπορεί να μειώσει την ανάπτυξη βακτηρίων και μυκήτων.',
+                  'Μακροχρόνια χρήση: Τα φίλτρα γραφίτη έχουν μεγαλύτερη διάρκεια ζωής και δεν χρειάζονται συχνές αλλαγές.'
+                ]
+              },
+              hotelUse: {
+                title: 'Χρήση σε Ξενοδοχεία:',
+                items: [
+                  'Αφαιρεί χημικά και οργανικές ενώσεις, βελτιώνοντας την ποιότητα του νερού που χρησιμοποιούν οι επισκέπτες.',
+                  'Ιδανικό για νερό ποσιμού, μπανιέρας ή πλυντηρίων.'
+                ]
+              }
+            },
+            sandFilters: {
+              title: 'Φίλτρα Άμμου',
+              description: 'είναι πολύ δημοφιλή και οικονομικά στην προκαθαρισμένη επεξεργασία νερού. Χρησιμοποιούνται κυρίως για την αφαίρεση μεγάλων σωματιδίων, όπως λάσπη, άμμος και άλλες ακαθαρσίες που μπορεί να υπάρχουν στο νερό. Η άμμος είναι ένας φυσικός απορροφητής που παγιδεύει τις ακαθαρσίες στα στρώματα της.',
+              benefits: {
+                title: 'Πλεονεκτήματα:',
+                items: [
+                  'Αφαίρεση μεγάλων σωματιδίων: Ιδανικό για την απομάκρυνση άμμου, λάσπης, φύλλων και άλλων μεγάλων ακαθαρσιών.',
+                  'Χαμηλό κόστος λειτουργίας: Πολύ αποδοτικό και οικονομικό για μεγάλα συστήματα φιλτραρίσματος.',
+                  'Μεγαλύτερη διάρκεια ζωής: Δεν απαιτεί συχνές αλλαγές όπως άλλα φίλτρα (συνήθως μόνο πλύσιμο).'
+                ]
+              },
+              hotelUse: {
+                title: 'Χρήση σε Ξενοδοχεία:',
+                items: [
+                  'Ιδανικό για φιλτράρισμα μη πόσιμου νερού (π.χ. για το νερό που χρησιμοποιείται στις πισίνες ή στο πότισμα κήπων).',
+                  'Εφαρμόζεται σε προκαθορισμένο στάδια για να απομακρυνθούν τα μεγάλα σωματίδια πριν από άλλες διαδικασίες.'
+                ]
+              }
+            },
+            combination: {
+              title: 'Συνδυασμός Φίλτρων Γραφίτη και Άμμου',
+              description: 'Στα ξενοδοχεία και τις βιομηχανικές εγκαταστάσεις, συχνά συνδυάζονται τα δύο φίλτρα για βέλτιστη ποιότητα νερού. Ο συνδυασμός αυτών των φίλτρων παρέχει πολλαπλή προστασία:',
+              process: [
+                'Φίλτρα Άμμου για την αφαίρεση μεγαλύτερων σωματιδίων και οργανικών ρύπων.',
+                'Φίλτρα Γραφίτη για την απομάκρυνση χλωρίου, οργανικών ουσιών και την αναβάθμιση της γεύσης του νερού.'
+              ],
+              benefits: {
+                title: 'Οφέλη από το Συνδυαστικό Σύστημα:',
+                items: [
+                  'Αποδοτική απομάκρυνση ρύπων.',
+                  'Καλύτερη ποιότητα νερού για πόσιμο και χρήση.',
+                  'Μείωση του κόστους συντήρησης και της φθοράς σε συσκευές και σωληνώσεις.'
+                ]
+              }
+            },
+            selfCleaning: 'Τα φίλτρα μας έχουν σύστημα αυτοκαθαρισμού και δε χρειάζονται service.'
+          },
+          electromagneticSystem: {
+            title: "3. ΣΥΣΤΗΜΑ ΜΕ ΗΛΕΚΤΡΟΜΑΓΝΗΤΕΣ ΓΙΑ 'ΖΩΝΤΑΝΟ ΝΕΡΟ'",
+            description: 'Οι ηλεκτρομαγνήτες μας ενεργοποιούν τα ελεύθερα ηλεκτρόνια του νερού και με αυτό τον τρόπο μεταφέρονται πληροφορίες του νερού από προγενέστερη κατάσταση όπως το νερό της πηγής. Έχει πλέον αποδειχθεί από τον Ιάπωνα καθηγητή ΕΜΟΤΟ ότι το νερό έχει μνήμες και αυτές μεταφέρονται σε κάθε ζωντανό οργανισμό.',
+            problem: 'Η κατάσταση του νερού, η εμφιάλωσή του, οι συνθήκες καθαρισμού και μεταφοράς στα σπίτια, απενεργοποιούν τα ηλεκτρόνια και αποδυναμώνουν τις ευεργετικές επιδράσεις του.',
+            solution: 'Το μηχάνημά μας επαναφέρει την ηλεκτροδιέγερσή του, επαναπροσδιορίζει την ικανότητά του να δίνει ζωή σε κάθε ζωντανό οργανισμό στον πλανήτη χαρίζοντας σε όσους το γευτούν υγεία και επαφή με τον υδάτινο πλούτο του!',
+            note: 'Η φόρτισή του είναι ακαριαία περνώντας στο επόμενο στάδιο που είναι ο εμπλουτισμός του με μοριακό υδρογόνο.'
+          },
+          hydrogenEnrichment: {
+            title: '4. ΕΜΠΛΟΥΤΙΣΜΟΣ ΜΕ ΜΟΡΙΑΚΟ ΥΔΡΟΓΟΝΟ',
+            introduction: 'Το υδρογόνο είναι το μικρότερο χημικό στοιχείο στη φύση. Είναι ένα από τα δομικά συστατικά του σύμπαντος αλλά και του δικού μας πλανήτη και μπορεί να διεισδύσει παντού. Το μοριακό υδρογόνο περιέχει δύο άτομα υδρογόνου που μοιράζονται ένα ηλεκτρόνιο.',
+            benefits: 'Το υδρογονωμένο νερό είναι η φυσική λύση για υγεία, ευεξία και ανάπτυξη σε ανθρώπους και όλους τους ζωντανούς οργανισμούς. Ενισχύει τον οργανισμό, καταπολεμά το οξειδωτικό στρες και προσφέρει ενέργεια και αναζωογόνηση. Το μοριακό υδρογόνο είναι φυσικό ελιξίριο ζωής, εκτός των ευεργετικών επιδράσεων σε όλα τα όργανα και συστήματα του ανθρώπου αυξάνει τα τελομερή και επιμηκύνει το προσδόκιμο ζωής.',
+            applications: 'Ο εμπλουτισμός του νερού με μοριακό υδρογόνο, μπορεί να προσδώσει μεγάλα πλεονεκτήματα εκτός της πόσης, στην κουζίνα, το μπάνιο και στο τμήμα Laundry.',
+            airSystem: 'Το μοριακό υδρογόνο μπορεί με ένα σύστημα ακόμη, να περάσει στους αεραγωγούς και να προσφέρει απίστευτα πλεονεκτήματα σε εισπνεόμενη πια μορφή, για επιλεγμένα δωμάτια ή για όλους τους χώρους του κτιρίου. Επίσης υπάρχουν προηγμένα ατομικά μηχανήματα για εισπνοή υδρογόνου, με ειδικά ορυκτά, πλάσμα ιόντων κρυστάλλων και μουσική Solfeggio ενσωματωμένη για Ευεξία και προηγμένη θεραπεία σε δωμάτια όπως οι σουίτες.',
+            keyAdvantage: 'Το σύστημα υδρογόνωσης του νερού είναι το μεγαλύτερο ατού του συνολικού συστήματος που σας παρουσιάζουμε. Είναι μια καινοτομία υγείας και ευεξίας, πιστοποιημένη με πολυάριθμες έρευνες σε όλο τον κόσμο, με απίστευτα πολλές ενδείξεις χρήσης και κλινικά αποδεδειγμένα οφέλη.',
+            clinicalBenefits: 'Η χρήση υδρογονωμένου νερού και ταυτόχρονης εισπνοής μιας ώρας, μαλακώνει τις κυτταρικές μεμβράνες, αυξάνει το ATP και προσφέρει άμεσα αντιοξειδωτικό αποτέλεσμα, καταπολεμώντας τις ελεύθερες ρίζες οξυγόνου και Υδροξυλίου (HO) και ενισχύοντας το υπεροξείδιο του υδρογόνου αυξάνοντας έτσι την αντιοξείδωση του οργανισμού.',
+            businessBenefits: {
+              title: 'Τα πλεονεκτήματα του μοριακού υδρογόνου σε χρήση των πελατών και του προσωπικού είναι σε σχέση με:',
+              items: [
+                'Την Υγεία των πελατών και του προσωπικού και ότι αυτό συνεπάγεται σε σχέση με τις οικονομικές απώλειες λόγω νόσησης.',
+                'Την προσφορά Ευεξίας Wellness και τις αυξημένες ζητήσεις στη συγκεκριμένη παροχή.',
+                'Στο ανταγωνιστικό πλεονέκτημα που προσφέρει η συγκεκριμένη καινοτόμα παροχή.',
+                'Αύξηση της κερδοφορίας μέσω αυξημένης τιμής δωματίου και παροχής αναβαθμισμένων ροφημάτων και ειδικού αλκαλικού και υδρογονωμένου νερού (5 ευρώ) 500ml.',
+                'Αναβάθμιση της υπηρεσίας Spa με συσκευές υδρογώνου κλπ.'
+              ]
+            }
+          },
+          desalinationSystem: {
+            title: 'Πρόσθετος μηχανισμός αφαλάτωσης',
+            description: 'Η εταιρία μας μπορεί να προσαρμόσει στο εικονιζόμενο σύστημα και μηχανισμό αφαλάτωσης, κυρίως για ξενοδοχεία και επιχειρήσεις που εδρεύουν σε νησιά ή περιοχές της ηπειρωτικής χώρας, που είναι κοντά σε θάλασσα και αντλούν δικό τους νερό!',
+            note: 'Να σημειωθεί ότι τα συστήματά μας έχουν αντλίες σταθερής πίεσης για να είναι σταθερή η πίεση του νερού σε όλους τους ορόφους ενός κτιρίου.'
+          },
+          companyInfo: {
+            title: 'HYDROGEN DEVELOPMENTS',
+            subtitle: 'ΕΞΕΔΙΚΕΥΜΕΝΑ ΜΗΧΑΝΗΜΑΤΑ ΠΑΡΑΓΩΓΗΣ ΜΟΡΙΑΚΟΥ ΥΔΟΓΟΝΟΥ',
+            contact: {
+              phone: 'Τηλ. 00306980900300',
+              email: 'Mail: infohydrogenlife@gmail.com',
+              website: 'WS www.hydrogenlife.eu'
+            }
+          }
+        }
       }
     }
   }

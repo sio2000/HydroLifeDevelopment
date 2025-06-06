@@ -401,7 +401,174 @@
   },
   "horeca": {
     "title": "HO.RE.CA.",
-    "description": "Molecular Hydrogen solutions for Hotels, Restaurants & Cafés. Special applications and products for the hospitality and food service sector."
+    "description": "Molecular Hydrogen solutions for Hotels, Restaurants & Cafés. Special applications and products for the hospitality and food service sector.",
+    "systemPresentation": {
+      "title": "WATER TREATMENT AND ENRICHMENT SYSTEM PRESENTATION",
+      "phRegulator": {
+        "title": "1. THE PH REGULATOR",
+        "description": "is for adjusting the pH before the cleaning or treatment process. The pH adjustment must be varied or stabilized at an intermediate level before reaching its final state for another process or use.",
+        "examples": [
+          "Metal removal (e.g., mercury, iron).",
+          "Pollutant management before sewage disposal.",
+          "Disinfection and water quality maintenance."
+        ],
+        "hotelUse": "For a hotel, water must be ideal for various uses: from dishwashing and guest bathing to cleaning procedures for facilities and rooms. The requirements for ideal water pH vary depending on its use, but generally there are some guidelines to ensure water quality and pleasant guest experience.",
+        "idealPh": {
+          "title": "Ideal pH for Hotel Use",
+          "dishwashing": {
+            "title": "1. For Dishwashing and Cookware",
+            "range": "Ideal pH: 7.5 - 8.5",
+            "benefits": [
+              "Alkaline water is more effective at removing greasy substances and food residues from dishes, glasses, and utensils.",
+              "This pH ensures that detergents and dish soaps work effectively without leaving residues or causing corrosion."
+            ]
+          },
+          "bathing": {
+            "title": "2. For Bathing and Guest Hygiene (Pools, Showers, etc.)",
+            "range": "Ideal pH: 5.5 - 7.5",
+            "benefits": [
+              "Water for bathing and pools should be mildly alkaline or neutral to protect guests' skin, not cause irritation or dryness, and maintain the natural balance of the epidermis.",
+              "For pools, pH should remain within the range of 7.2 - 7.6 for proper chlorine function and user safety."
+            ]
+          },
+          "cleaning": {
+            "title": "3. For Cleaning and Laundry",
+            "range": "Ideal pH: 7 - 9",
+            "benefits": [
+              "Water used in laundry machines should be slightly alkaline to ensure proper detergent action and remove residues from clothes, sheets, and towels.",
+              "Very acidic or very alkaline water can reduce detergent effectiveness and damage fabrics."
+            ]
+          },
+          "drinking": {
+            "title": "4. Ideal pH for drinking water:",
+            "range": "Ideal pH range: 7.0 - 9.5",
+            "description": "This range ensures that water is safe for health and does not cause harm to the body or unpleasant tastes. Water within this range is considered neutral or alkaline, and is the most pleasant and safe for consumption, therefore there will be no harm to the health of hotel guests."
+          }
+        },
+        "systemNote": "Since a system with different pH in each section is particularly expensive and complex, it would be preferable to have only two pH options, which are the average for all sections."
+      },
+      "hardnessRegulator": {
+        "title": "2. THE WATER HARDNESS REGULATOR",
+        "description": "is the device used to reduce or control water hardness - that is, the concentration of calcium (Ca²⁺) and magnesium (Mg²⁺), which are the main ions that determine how 'hard' water is.",
+        "purpose": "A water softening system for hotels is essential for equipment protection, improving guest experience, and reducing maintenance costs. Its purpose is to remove calcium and magnesium ions from water so that salts do not form in pipes, water heaters, washing machines, and showers.",
+        "benefits": {
+          "title": "Advantages in hotel facilities:",
+          "saltReduction": "Reduction of salt deposits in:",
+          "equipment": [
+            "Water heaters / Boilers",
+            "Showers, faucets, sanitary items",
+            "Clothing and dishwashers",
+            "Coffee/kitchen systems"
+          ],
+          "other": [
+            "Fewer chemical cleaners & soaps (better foam)",
+            "Better guest experience (softer water for bathing)",
+            "Longer equipment lifespan",
+            "Reduced maintenance costs"
+          ]
+        }
+      },
+      "filters": {
+        "title": "Graphite and Sand Filters",
+        "description": "The filters we use in our system are graphite and sand.",
+        "graphiteFilters": {
+          "title": "Graphite Filters",
+          "description": "are mainly used for removing organic impurities and other substances that may affect the taste or smell of water. Graphite is a type of carbon that has excellent absorption properties.",
+          "benefits": {
+            "title": "Advantages:",
+            "items": [
+              "Organic pollutant removal: Ideal for removing chlorine, chlorinated compounds, and other chemical or organic pollutants.",
+              "Taste and odor improvement: Improves water taste and smell.",
+              "Antibacterial properties: Graphite can reduce the development of bacteria and fungi.",
+              "Long-term use: Graphite filters have a longer lifespan and don't require frequent changes."
+            ]
+          },
+          "hotelUse": {
+            "title": "Hotel Use:",
+            "items": [
+              "Removes chemicals and organic compounds, improving the quality of water used by visitors.",
+              "Ideal for drinking water, bathing, or washing machines."
+            ]
+          }
+        },
+        "sandFilters": {
+          "title": "Sand Filters",
+          "description": "are very popular and economical in pre-treated water processing. They are mainly used for removing large particles, such as mud, sand, and other impurities that may exist in water. Sand is a natural absorber that traps impurities in its layers.",
+          "benefits": {
+            "title": "Advantages:",
+            "items": [
+              "Large particle removal: Ideal for removing sand, mud, leaves, and other large impurities.",
+              "Low operating cost: Very efficient and economical for large filtration systems.",
+              "Longer lifespan: Doesn't require frequent changes like other filters (usually just washing)."
+            ]
+          },
+          "hotelUse": {
+            "title": "Hotel Use:",
+            "items": [
+              "Ideal for filtering non-potable water (e.g., water used in pools or garden irrigation).",
+              "Applied in predetermined stages to remove large particles before other processes."
+            ]
+          }
+        },
+        "combination": {
+          "title": "Combination of Graphite and Sand Filters",
+          "description": "In hotels and industrial facilities, the two filters are often combined for optimal water quality. The combination of these filters provides multiple protection:",
+          "process": [
+            "Sand Filters for removing larger particles and organic pollutants.",
+            "Graphite Filters for removing chlorine, organic substances, and improving water taste."
+          ],
+          "benefits": {
+            "title": "Benefits from the Combined System:",
+            "items": [
+              "Efficient pollutant removal.",
+              "Better water quality for drinking and use.",
+              "Reduced maintenance costs and wear on devices and pipes."
+            ]
+          }
+        },
+        "selfCleaning": "Our filters have a self-cleaning system and don't require service."
+      },
+      "electromagneticSystem": {
+        "title": "3. ELECTROMAGNETIC SYSTEM FOR 'LIVING WATER'",
+        "description": "Our electromagnets activate the free electrons of water and in this way transfer water information from a previous state such as spring water. It has now been proven by Japanese Professor EMOTO that water has memories and these are transferred to every living organism.",
+        "problem": "The state of water, its bottling, cleaning and transport conditions to homes, deactivate electrons and weaken its beneficial effects.",
+        "solution": "Our machine restores its electroexcitation, redefines its ability to give life to every living organism on the planet, giving those who taste it health and contact with its aquatic wealth!",
+        "note": "Its charging is instantaneous, moving to the next stage which is enrichment with molecular hydrogen."
+      },
+      "hydrogenEnrichment": {
+        "title": "4. MOLECULAR HYDROGEN ENRICHMENT",
+        "introduction": "Hydrogen is the smallest chemical element in nature. It is one of the building blocks of the universe as well as our planet and can penetrate everywhere. Molecular hydrogen contains two hydrogen atoms that share one electron.",
+        "benefits": "Hydrogen water is the natural solution for health, wellness, and development in humans and all living organisms. It strengthens the body, fights oxidative stress, and provides energy and rejuvenation. Molecular hydrogen is a natural elixir of life; besides beneficial effects on all human organs and systems, it increases telomeres and extends life expectancy.",
+        "applications": "Water enrichment with molecular hydrogen can provide great advantages beyond drinking, in the kitchen, bathroom, and laundry department.",
+        "airSystem": "Molecular hydrogen can, with another system, pass into air ducts and offer incredible advantages in inhaled form, for selected rooms or for all building spaces. There are also advanced individual machines for hydrogen inhalation, with special minerals, crystal ion plasma, and integrated Solfeggio music for Wellness and advanced therapy in rooms like suites.",
+        "keyAdvantage": "The water hydrogenation system is the greatest asset of the overall system we present to you. It is a health and wellness innovation, certified with numerous studies worldwide, with incredibly many usage indications and clinically proven benefits.",
+        "clinicalBenefits": "The use of hydrogen water and simultaneous inhalation for one hour softens cell membranes, increases ATP, and provides immediate antioxidant effects, fighting free radicals of oxygen and hydroxyl (HO) and enhancing hydrogen peroxide, thus increasing the body's antioxidation.",
+        "businessBenefits": {
+          "title": "The advantages of molecular hydrogen in use by guests and staff are related to:",
+          "items": [
+            "The health of guests and staff and what this entails in relation to economic losses due to illness.",
+            "Offering Wellness and increased demands for this specific provision.",
+            "The competitive advantage offered by this specific innovative provision.",
+            "Increased profitability through increased room rates and provision of upgraded beverages and special alkaline and hydrogen water (5 euros) 500ml.",
+            "Spa service upgrade with hydrogen devices, etc."
+          ]
+        }
+      },
+      "desalinationSystem": {
+        "title": "Additional desalination mechanism",
+        "description": "Our company can adapt to the illustrated system and desalination mechanism, mainly for hotels and businesses located on islands or areas of the mainland that are close to the sea and pump their own water!",
+        "note": "It should be noted that our systems have constant pressure pumps to maintain stable water pressure on all floors of a building."
+      },
+      "companyInfo": {
+        "title": "HYDROGEN DEVELOPMENTS",
+        "subtitle": "SPECIALIZED MOLECULAR HYDROGEN PRODUCTION MACHINES",
+        "contact": {
+          "phone": "Tel. 00306980900300",
+          "email": "Mail: infohydrogenlife@gmail.com",
+          "website": "WS www.hydrogenlife.eu"
+        }
+      }
+    }
   },
   "humansPage": {
     "heroTitle": "Hydrogen & Human Health",

@@ -2,17 +2,22 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import { resources } from './translations';
 
-// Get saved language or default to Greek
-const savedLanguage = localStorage.getItem('i18nextLng') || 'el';
+// Get saved language or default to English  
+const savedLanguage = localStorage.getItem('i18nextLng') || 'en';
+
+console.log('🔥 i18n: Saved language:', savedLanguage);
+console.log('🔥 i18n: Resources loaded:', Object.keys(resources));
+console.log('🔥 i18n: Greek translations keys:', Object.keys(resources.el?.translation || {}));
+console.log('🔥 i18n: English translations keys:', Object.keys(resources.en?.translation || {}));
 
 const i18nConfig = {
   resources,
   lng: savedLanguage,
-  fallbackLng: 'el', // Default to Greek instead of English
+  fallbackLng: 'en', // Default to English
   supportedLngs: ['en', 'el'],
   defaultNS: 'translation',
   fallbackNS: 'translation',
-  debug: false,
+  debug: true, // Enable debug mode
   interpolation: {
     escapeValue: false
   },
@@ -32,17 +37,12 @@ i18n
 
 // Ensure the language is saved to localStorage
 if (!localStorage.getItem('i18nextLng')) {
-  localStorage.setItem('i18nextLng', 'el');
+  localStorage.setItem('i18nextLng', 'en');
 }
 
-// Force refresh on language change
+// Save language changes to localStorage
 i18n.on('languageChanged', (lng: string) => {
-  // Force re-render by triggering a storage event
   window.localStorage.setItem('i18nextLng', lng);
-  // Trigger a page reload to ensure proper language switching
-  setTimeout(() => {
-    window.location.reload();
-  }, 100);
 });
 
 export default i18n; 
