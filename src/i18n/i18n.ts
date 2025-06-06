@@ -2,8 +2,8 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import { resources } from './translations';
 
-// Get saved language or default to English  
-const savedLanguage = localStorage.getItem('i18nextLng') || 'en';
+// Get saved language or default to Greek  
+const savedLanguage = localStorage.getItem('i18nextLng') || 'el';
 
 console.log('🔥 i18n: Saved language:', savedLanguage);
 console.log('🔥 i18n: Resources loaded:', Object.keys(resources));
@@ -13,7 +13,7 @@ console.log('🔥 i18n: English translations keys:', Object.keys(resources.en?.t
 const i18nConfig = {
   resources,
   lng: savedLanguage,
-  fallbackLng: 'en', // Default to English
+  fallbackLng: 'el', // Default to Greek
   supportedLngs: ['en', 'el'],
   defaultNS: 'translation',
   fallbackNS: 'translation',
@@ -37,7 +37,7 @@ i18n
 
 // Ensure the language is saved to localStorage
 if (!localStorage.getItem('i18nextLng')) {
-  localStorage.setItem('i18nextLng', 'en');
+  localStorage.setItem('i18nextLng', 'el');
 }
 
 // Save language changes to localStorage
