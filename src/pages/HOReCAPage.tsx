@@ -411,7 +411,7 @@ const HOReCAPage = () => {
           <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl shadow-xl p-8 text-white">
             <div className="text-center mb-8">
               <h2 className="text-4xl font-bold mb-4">
-                {safeT('horeca.systemPresentation.companyInfo.title', 'HYDROGEN DEVELOPMENTS')}
+                {safeT('horeca.systemPresentation.companyInfo.title', 'HYDROGEN CONSTRUCTION AND SOLUTION LTD')}
               </h2>
               <p className="text-xl text-slate-300">
                 {safeT('horeca.systemPresentation.companyInfo.subtitle', 'ΕΞΕΙΔΙΚΕΥΜΕΝΑ ΜΗΧΑΝΗΜΑΤΑ ΠΑΡΑΓΩΓΗΣ ΜΟΡΙΑΚΟΥ ΥΔΡΟΓΟΝΟΥ')}

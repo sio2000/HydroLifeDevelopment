@@ -9,7 +9,7 @@ const Footer = () => {
   const footerContent = {
     el: {
       company: {
-        title: "Hydrogen Developments",
+        title: "Hydrogen Construction and Solution Ltd.",
         description: "Αφοσιωμένοι στην παροχή προϊόντων μοριακού υδρογόνου υψηλής ποιότητας."
       },
       quickLinks: {
@@ -32,7 +32,7 @@ const Footer = () => {
     },
     en: {
       company: {
-        title: "Molecular Hydrogen Developments",
+        title: "Hydrogen Construction and Solution Ltd",
         description: "Committed to delivering the highest quality molecular hydrogen water products."
       },
       quickLinks: {

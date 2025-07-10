@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <img src={logo} alt="Logo" className="h-8 w-8 sm:h-10 sm:w-10 mr-2" />
-            <Link to="/" className="text-xl sm:text-2xl font-bold text-sky-600">Hydrogen Developments</Link>
+            <Link to="/" className="text-xl sm:text-2xl font-bold text-sky-600">Hydrogen Construction and Solution Ltd</Link>
           </div>
           
           {/* Desktop Menu */}

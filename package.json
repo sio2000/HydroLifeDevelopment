@@ -7,17 +7,25 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/webpack-config": "^19.0.1",
     "@headlessui/react": "^2.2.1",
     "@heroicons/react": "^2.2.0",
+    "expo": "^53.0.11",
     "framer-motion": "^12.7.3",
     "i18next": "^24.2.3",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-i18next": "^15.4.1",
+    "react-native": "^0.80.0",
+    "react-native-web": "^0.20.0",
     "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
