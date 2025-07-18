@@ -26,7 +26,7 @@ ${formData.message}
     `.trim();
 
     // Create mailto URL with encoded parameters
-    const mailtoUrl = `mailto:info@hydrogenlife.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(emailBody)}`;
+    const mailtoUrl = `mailto:infohydrogenlife@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(emailBody)}`;
     
     // Open default mail client
     window.location.href = mailtoUrl;
@@ -121,10 +121,10 @@ ${formData.message}
                   <div>
                     <h3 className="text-lg font-semibold">{t('contactPage.info.email.title')}</h3>
                     <a 
-                      href="mailto:info@hydrogenlife.com" 
+                      href="mailto:infohydrogenlife@gmail.com" 
                       className="text-blue-100 hover:text-white transition-colors underline-offset-4 hover:underline flex items-center"
                     >
-                      info@hydrogenlife.com
+                      infohydrogenlife@gmail.com
                       <span className="ml-2 text-xs bg-blue-500/30 px-2 py-1 rounded-full">{t('contactPage.info.email.cta')}</span>
                     </a>
                   </div>

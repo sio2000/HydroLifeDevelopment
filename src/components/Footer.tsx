@@ -93,7 +93,7 @@ const Footer = () => {
                 </button>
               </a>
             </p>
-            <p className="text-sm sm:text-base text-gray-400 mt-2">{content.contact.email}: info@hydrogenlife.com</p>
+            <p className="text-sm sm:text-base text-gray-400 mt-2">{content.contact.email}: infohydrogenlife@gmail.com</p>
           </div>
           <div>
             <h4 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">{content.newsletter.title}</h4>
