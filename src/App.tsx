@@ -23,6 +23,7 @@ import ScientificFact2 from './pages/ScientificFact2';
 import ScientificFact3 from './pages/ScientificFact3';
 import ScientificFact4 from './pages/ScientificFact4';
 import HOReCAPage from './pages/HOReCAPage';
+import TestPage from './pages/TestPage';
 import './i18n/i18n';
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
           <Route path="/scientific/2" element={<ScientificFact3 />} />
           <Route path="/scientific/3" element={<ScientificFact4 />} />
           <Route path="/horeca" element={<HOReCAPage />} />
+          <Route path="/test" element={<TestPage />} />
         </Routes>
         <Footer />
       </div>
