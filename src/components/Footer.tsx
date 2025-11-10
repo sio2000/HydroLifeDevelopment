@@ -9,7 +9,7 @@ const Footer = () => {
   const footerContent = {
     el: {
       company: {
-        title: "Hydrogen Construction and Solution Ltd.",
+        title: "Hydrogen Construction and Solution Ltd",
         description: "Αφοσιωμένοι στην παροχή προϊόντων μοριακού υδρογόνου υψηλής ποιότητας."
       },
       quickLinks: {
