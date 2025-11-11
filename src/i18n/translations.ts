@@ -13,6 +13,7 @@ export const resources = {
         shop: 'Shop',
         contact: 'Contact',
         horeca: 'HO.RE.CA.',
+        hardiAmc: 'Hardi-Amc',
       },
       home: {
         welcome: 'Welcome to Hydrogenlife',
@@ -1589,6 +1590,7 @@ export const resources = {
         shop: 'Κατάστημα',
         contact: 'Επικοινωνία',
         horeca: 'HO.RE.CA.',
+        hardiAmc: 'Hardi-Amc',
       },
       home: {
         welcome: 'Καλώς ήρθατε στο Hydrogenlife',

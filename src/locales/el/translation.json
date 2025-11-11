@@ -199,7 +199,9 @@
     "industry": "Βιομηχανία",
     "products": "Προϊόντα",
     "shop": "Κατάστημα",
-    "contact": "Επικοινωνία"
+    "contact": "Επικοινωνία",
+    "horeca": "HO.RE.CA.",
+    "hardiAmc": "Hardi-Amc"
   },
   "hydrogenWaterPage": {
     "title": "Υδρογονωμένο νερό",

@@ -221,7 +221,9 @@
     "industry": "Industry",
     "products": "Products",
     "shop": "Shop",
-    "contact": "Contact"
+    "contact": "Contact",
+    "horeca": "HO.RE.CA.",
+    "hardiAmc": "Hardi-Amc"
   },
   "hydrogenWaterPage": {
     "title": "Molecular Hydrogen Water",

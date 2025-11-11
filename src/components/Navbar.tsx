@@ -117,6 +117,14 @@ const Navbar = () => {
               </Menu.Items>
             </Menu>
             <Link to="/contact" className="text-gray-700 hover:text-sky-600">{t('nav.contact')}</Link>
+            <a
+              href="https://hardi-amc.com/hardi-amc/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-700 hover:text-sky-600"
+            >
+              {t('nav.hardiAmc')}
+            </a>
           </div>
 
           <div className="flex items-center space-x-2 sm:space-x-4">
@@ -215,6 +223,15 @@ const Navbar = () => {
             >
               {t('nav.contact')}
             </Link>
+            <a
+              href="https://hardi-amc.com/hardi-amc/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-sky-600 hover:bg-gray-50 rounded-md"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              {t('nav.hardiAmc')}
+            </a>
           </div>
         </div>
       )}
