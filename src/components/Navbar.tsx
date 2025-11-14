@@ -25,9 +25,9 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-sm fixed w-full top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+        <div className="flex justify-between h-20 sm:h-24">
           <div className="flex items-center">
-            <img src={logo} alt="Logo" className="h-8 w-8 sm:h-10 sm:w-10 mr-2" />
+            <img src={logo} alt="Logo" className="h-12 w-12 sm:h-16 sm:w-16 mr-3" />
             <Link to="/" className="text-xl sm:text-2xl font-bold text-sky-600">Hydrogen Construction and Solution Ltd</Link>
           </div>
           
