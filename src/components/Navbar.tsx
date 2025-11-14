@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { ShoppingCart, User, Globe, Menu as MenuIcon, X } from 'lucide-react';
 import { Menu } from '@headlessui/react';
 import { useTranslation } from 'react-i18next';
-import logo from '../../assets/images/logo.png';
 
 const Navbar = () => {
   const { t, i18n } = useTranslation('translation');
@@ -27,7 +26,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 sm:h-24">
           <div className="flex items-center">
-            <img src={logo} alt="Logo" className="h-12 w-12 sm:h-16 sm:w-16 mr-3" />
+            <img src="/assets/images/logo.png" alt="Logo" className="h-12 w-12 sm:h-16 sm:w-16 mr-3" />
             <Link to="/" className="text-xl sm:text-2xl font-bold text-sky-600">Hydrogen Construction and Solution Ltd</Link>
           </div>
           
