@@ -147,6 +147,11 @@ const Navbar = () => {
                 )}
               </span>
             </button>
+            <img 
+              src="/assets/images/logorightside.png" 
+              alt="Right Side Logo" 
+              className="h-12 w-12 sm:h-16 sm:w-16 ml-auto" 
+            />
             {/* Mobile menu button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
